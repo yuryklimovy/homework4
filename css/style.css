@@ -1,0 +1,118 @@
+body{
+	background-color: #0c739f;
+	background:url(../img/backgroung.jpg) repeat-x;
+	
+}
+
+.main{
+	margin: 1px auto;
+	width: 1000px;
+	background-color: #fff;
+	-webkit-box-shadow: 0px 4px 7px 4px rgba(0,0,0,0.41);
+	-moz-box-shadow: 0px 4px 7px 4px rgba(0,0,0,0.41);
+	box-shadow: 0px 4px 7px 4px rgba(0,0,0,0.41);
+}
+/*HEADER*/
+header{
+	height: 175px;
+	background: url(../img/logo.png) no-repeat;
+	background-position: 24px 11px;
+}
+.header-conteiner{
+	float: right;
+	
+}
+.contacts{
+	padding: 11px 0 10px 235px;
+}
+.contacts h2{
+	margin-bottom: 10px;
+}
+.contacts h2,
+.contacts p{
+	line-height: 1.5;
+	font-size: 12px;
+	font-family: "Tahoma";
+	color: rgba(18, 138, 167, 0.8);
+}
+.contries{
+	padding-right: 27px;
+}
+.contries li{
+	width: 60px;
+	height: 60px;
+	margin: 0 1px;
+	float: right;
+	text-align: center;
+	background-position: top;
+	
+}
+.contries li a{
+	line-height: 104px;
+	font-size: 10px;
+	font-family: "Tahoma";
+	color: rgb(18, 138, 167);
+	text-decoration: underline;
+	
+}
+.india{
+	background: url(../img/india.png) no-repeat;
+	
+}
+.maldives{
+	background: url(../img/maldives.png) no-repeat;
+	
+}
+.sri-lanka{
+	background: url(../img/shri-lanka.png) no-repeat;
+	
+}
+.bhutan{
+	background: url(../img/bhutan.png) no-repeat;
+}
+.tibet{
+	background: url(../img/tibet.png) no-repeat;
+}
+.nepal{
+	background: url(../img/nepal.png) no-repeat;
+}
+/*FOTO*/
+.foto{
+	height: 237px; 
+	background: url(../img/photo.jpg) no-repeat;
+	border-top: 1px solid #128aa7;
+	border-bottom: 1px solid #128aa7;
+
+}
+/*MENU*/
+.menu{
+	height: 28px;
+	background: #333333;
+	border-bottom: 1px solid #000;
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+}
+.menu ul{
+	height: 100%;
+	background:url(../img/white_triangles.png) no-repeat center;
+}
+.menu ul li{
+	display: inline-block;
+	height: 100%;
+	width: 12%;
+	margin: 0 auto;
+}
+.menu ul li a{
+	display: block;
+	height: 100%;
+	padding-top: 8px;
+	font-size: 14px;
+  	font-family: "Tahoma";
+  	color: rgb(255, 255, 255);
+  	text-decoration: none;
+  	text-align: center;
+}
+.dropdown{
+	background:url(../img/white_triangles.png) no-repeat;
+}
