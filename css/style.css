@@ -1,7 +1,7 @@
 body{
 	background-color: #0c739f;
 	background:url(../img/backgroung.jpg) repeat-x;
-	
+
 }
 
 .main{
@@ -20,7 +20,7 @@ header{
 }
 .header-conteiner{
 	float: right;
-	
+
 }
 .contacts{
 	padding: 11px 0 10px 235px;
@@ -45,7 +45,7 @@ header{
 	float: right;
 	text-align: center;
 	background-position: top;
-	
+
 }
 .contries li a{
 	line-height: 104px;
@@ -53,19 +53,19 @@ header{
 	font-family: "Tahoma";
 	color: rgb(18, 138, 167);
 	text-decoration: underline;
-	
+
 }
 .india{
 	background: url(../img/india.png) no-repeat;
-	
+
 }
 .maldives{
 	background: url(../img/maldives.png) no-repeat;
-	
+
 }
 .sri-lanka{
 	background: url(../img/shri-lanka.png) no-repeat;
-	
+
 }
 .bhutan{
 	background: url(../img/bhutan.png) no-repeat;
@@ -78,7 +78,7 @@ header{
 }
 /*FOTO*/
 .foto{
-	height: 237px; 
+	height: 237px;
 	background: url(../img/photo.jpg) no-repeat;
 	border-top: 1px solid #128aa7;
 	border-bottom: 1px solid #128aa7;
@@ -99,19 +99,17 @@ header{
 }
 .menu ul li{
 	display: inline-block;
-	height: 100%;
+	height: 28px;
 	width: 12%;
-	margin: 0 auto;
+	text-align: center;
 }
 .menu ul li a{
-	display: block;
-	height: 100%;
-	padding-top: 8px;
+	line-height: 28px;
+	/*padding-top: 8px;*/
 	font-size: 14px;
-  	font-family: "Tahoma";
-  	color: rgb(255, 255, 255);
-  	text-decoration: none;
-  	text-align: center;
+  font-family: "Tahoma";
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 .dropdown{
 	background:url(../img/white_triangles.png) no-repeat;
