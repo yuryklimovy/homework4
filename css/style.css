@@ -95,22 +95,46 @@ header{
 }
 .menu ul{
 	height: 100%;
-	background:url(../img/white_triangles.png) no-repeat center;
-}
-.menu ul li{
-	display: inline-block;
-	height: 28px;
-	width: 12%;
 	text-align: center;
 }
-.menu ul li a{
+.menu li{
+	display: inline-block;
+	height: 28px;
+	margin: 0 4% 0 0;
+	text-align: left;
+	position: relative;
+}
+.menu li a{
+	width: 100%;
 	line-height: 28px;
-	/*padding-top: 8px;*/
 	font-size: 14px;
   font-family: "Tahoma";
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
+.menu li:hover ul{
+	left: -10px;
+}
+.menu li img{
+	margin-left: 10px;
+}
 .dropdown{
-	background:url(../img/white_triangles.png) no-repeat;
+	position: absolute;
+	list-style:none;
+	border-top: 1px solid black;
+	left: -99999px;
+}
+.dropdown li{
+	display: block;
+	width: 100%;
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+	background: #333333;
+}
+.dropdown li a{
+	margin: 0 10px;
+	display: block;
+	white-space:nowrap;
+	line-height: 28px;
 }
